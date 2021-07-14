@@ -32,7 +32,7 @@ CONFIGURE_FLAGS = \
 	--enable-static \
 	--disable-shared \
 	--without-icu \
-	--without-freetype \
+	--with-freetype=auto \
 	--without-glib \
 	--with-coretext=auto
 
